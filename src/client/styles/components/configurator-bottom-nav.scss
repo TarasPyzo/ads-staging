@@ -1,0 +1,48 @@
+.configurator-bottom-nav {
+  border-top: 1px solid $border-light-gray;
+  font-family: $font-family-main;
+  background: $color-white;
+  height: 84px;
+  width: 100%;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+  &--inner {
+    display: flex;
+    padding: 0px 18px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &--action-link {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: $color-slategray;
+    cursor: not-allowed;
+  }
+
+  &--next-button {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: $color-primary-blue;
+    cursor: pointer;
+    width: 40%;
+    outline: none;
+  }
+
+  &--next-icon {
+    margin-left: 11px;
+  }
+}

@@ -1,0 +1,66 @@
+.Collapsible {
+  border: 1px solid $color-silver;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 15px;
+
+  &[activetrigger="customers"] {
+    border-color: $color-primary-blue;
+  }
+  &[activetrigger="dsp"] {
+    border-color: $color-primary-blue;
+  }
+  &[activetrigger="mirror"] {
+    border-color: $color-primary-blue;
+  }
+  &[activetrigger="glass"] {
+    border-color: $color-primary-blue;
+  }
+}
+
+.trigger {
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 6px;
+
+    &.open {
+      border-bottom: 1px solid $color-primary-blue;
+
+      >.trigger-check {
+        background-image: url("/src/client/assets/icons/fillingMaterials/trigger-checked.svg");
+      }
+
+      >.trigger-check {
+        background-image: url("/src/client/assets/icons/fillingMaterials/trigger-checked.svg");
+      }
+    }
+  }
+
+  &-check {
+    height: 16px;
+    width: 16px;
+    margin-left: 16px;
+    background-image: url("/src/client/assets/icons/fillingMaterials/trigger-unchecked.svg");
+    background-size: contain;
+  }
+
+  &-image {
+    height: 18px;
+    width: 18px;
+    margin-left: 25px;
+  }
+
+  &-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+    color: $color-black;
+  }
+}

@@ -1,0 +1,13 @@
+.sticky-container {
+  overflow-y: auto;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  z-index: 3000;
+  font-family: $font-family-main;
+
+  &:nth-child(2) {
+    background-color: transparent;
+    border-radius: 35px;
+  }
+}

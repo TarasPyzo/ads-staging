@@ -1,0 +1,144 @@
+.milling-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 10px 15px;
+}
+
+.dsp-section {
+  &-wrapper {
+    position: relative;
+
+    .dsp-options {
+      &-wrapper {
+        position: relative;
+
+        .radio-group {
+          margin-top: 0;
+
+          &--inner {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .radio-option {
+              margin-bottom: 60px;
+              margin-right: 6px;
+
+              &:nth-child(4n) {
+                margin-right: 0;
+              }
+
+              &--label{
+                width: 60px;
+
+                span {
+                  font-size: 10px;
+                  line-height: 14px;
+                  font-family: $font-family-main;
+                  color: $color-black;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &-caption {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 14px;
+        font-family: $font-family-main;
+        color: $color-slategray;
+        margin: 9px 0;
+      }
+    }
+  }
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+
+    .uv-print-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .label--wrapper {
+        margin: 0;
+
+        label {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+    }
+
+    .react-selectize.root-node .react-selectize-control {
+      width: auto;
+    }
+
+    .dropdown-menu {
+      width: 300px !important;
+    }
+  }
+
+  &-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &-glass {
+      background: url("/src/client/assets/icons/fillingMaterials/search-glass.svg");
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      left: 14px;
+    }
+
+    &-input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid $color-slategray;
+      outline: none;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 14px;
+      width: calc(100% - 48px);
+      padding: 10px 10px 10px 38px;
+      font-family: $font-family-main;
+
+      &:focus {
+        border-bottom: 1px solid $color-primary-blue;
+      }
+
+      &::placeholder {
+        color: $color-slategray;
+      }
+    }
+  }
+}
+
+.filling-materials-modal {
+  .collapsible-wrapper {} // TODO: wrap collapsible elements
+
+  .mirror-section {
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+
+      .react-selectize.root-node .react-selectize-control {
+        width: auto;
+      }
+
+      .dropdown-menu {
+        width: 300px !important;
+      }
+    }
+  }
+}

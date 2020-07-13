@@ -1,0 +1,15 @@
+.button {
+  &.text-blue{
+    font-style: normal;
+    font-weight: normal;
+    font-family: $font-family-main;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: $color-primary-blue;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+}

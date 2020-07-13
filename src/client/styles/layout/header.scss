@@ -1,0 +1,46 @@
+.header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  background: $background-color-light-gray;
+  z-index: 1001;
+  font-family: $font-family-main;
+
+  &--inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &--logo {
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+  }
+
+  &--back-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &--mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+
+    a {
+      cursor: pointer;
+    }
+
+    &-button {
+      cursor: pointer;
+    }
+  }
+
+  &--mobile.single-button {
+    justify-content: flex-end;
+  }
+}

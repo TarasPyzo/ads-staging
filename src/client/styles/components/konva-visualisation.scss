@@ -1,0 +1,11 @@
+.konva-visualisation {
+  width: 100%;
+  background: $background-color-light-gray;
+  font-family: $font-family-main;
+
+  &--inner {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+}

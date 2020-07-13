@@ -1,0 +1,49 @@
+.react-selectize.root-node {
+  font-family: $font-family-main;
+  position: initial;
+
+  &.open {
+    .react-selectize-control {
+      border: 1px solid $color-primary-blue !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .react-selectize-control {
+    position: initial;
+    border: 1px solid $color-lightsteelblue;
+    border-radius: 6px !important;
+    height: 46px;
+    width: 327px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    .react-selectize-toggle-button path {
+      fill: $color-primary-blue;
+    }
+
+    .react-selectize-placeholder {
+      position: initial;
+    }
+  }
+}
+
+.react-selectize.bootstrap3.dropdown-menu {
+  max-width: 329px;
+}
+
+.react-selectize.bootstrap3.root-node.simple-select.disabled {
+  cursor: not-allowed;
+
+  .react-selectize-control {
+    background-color: $background-color-light-gray;
+
+    .react-selectize-toggle-button {
+      path {
+        fill: $color-slategray;
+      }
+    }
+  }
+}

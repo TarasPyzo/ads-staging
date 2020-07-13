@@ -1,0 +1,56 @@
+.label {
+  &--wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-top: 20px;
+
+    label {
+      font-size: 16px;
+      line-height: 16px;
+      font-family: $font-family-main;
+    }
+  }
+
+  &--info-tag {
+    background-color: $color-lightsteelblue;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FBFBFB;
+    padding: 5px 12px;
+    line-break: anywhere;
+    max-width: 125px;
+    display: none;
+
+    &.active {
+      display: initial;
+    }
+
+    &-arrow-left {
+      width: 0;
+      height: 0;
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-right: 7px solid $color-lightsteelblue;
+      padding-left: 3px;
+      display: none;
+
+      &.active {
+        display: initial;
+      }
+    }
+
+    &-button {
+      width: 18px;
+      height: 18px;
+      background-image: url('/src/client/assets/icons/info-tag.svg');
+      background-color: transparent;
+      border: none;
+      margin-left: 10px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

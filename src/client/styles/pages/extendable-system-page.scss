@@ -1,0 +1,9 @@
+.extendable-system-page {
+  background: $background-color-light-gray;
+
+  .page--main {
+    &-inner {
+      min-height: auto;
+    }
+  }
+}

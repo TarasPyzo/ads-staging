@@ -1,0 +1,36 @@
+@import './variables.scss';
+@import './main.scss';
+
+@import './layout/header.scss';
+@import './layout/menu.scss';
+@import './layout/page.scss';
+
+@import './common/headings.scss';
+
+@import './components/modal.scss';
+@import './components/konva-visualisation.scss';
+@import './components/sticky-container.scss';
+@import './components/scrolling-container.scss';
+@import './components/modal-footer.scss';
+@import './components/configurator-bottom-nav.scss';
+@import './components/sticky-menu.scss';
+@import './components/input.scss';
+@import './components/radio.scss';
+@import './components/tab-sections.scss';
+@import './components/dropdown.scss';
+@import './components/label.scss';
+@import './components/plus-minus-control.scss';
+@import './components/main-door.scss';
+@import './components/button.scss';
+@import './components/switch.scss';
+@import './components/checkbox.scss';
+@import './components/collapsible.scss';
+@import './components/filling-materials-modal.scss';
+@import './components/copy-door-modal.scss';
+@import './components/filling-materails-control.scss';
+
+@import './pages/extendable-system-page.scss';
+
+@import './overrides/react-selectize.scss';
+
+@import '../../../node_modules/react-selectize/themes/index.css'

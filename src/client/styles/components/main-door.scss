@@ -1,0 +1,32 @@
+.main-tab,
+.main-section,
+.section {
+  &--item-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    &-caption {
+
+      &-title {
+        font-size: 16px;
+        line-height: 16px;
+        font-family: $font-family-main;
+        color: $color-black;
+        margin: 0 0 8px 0;
+      }
+
+      &-subtitle {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: $font-family-main;
+        color: $color-slategray;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.main-tab {}
