@@ -11,7 +11,7 @@ const config = {
   entry: './src/client/index.js',
   output: {
     filename: '[name].js',
-    path: `${__dirname}/dist`,
+    path: `${__dirname}/build`,
   },
   module: {
     rules: [
